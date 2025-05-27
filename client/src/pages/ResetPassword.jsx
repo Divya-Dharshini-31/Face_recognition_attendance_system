@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './ResetPassword.module.css';
 import { useNavigate } from 'react-router-dom';
-import lockImg from '../assets/lock.jpeg'; // Replace with actual image path
+import lockImg from '../assets/lock.jpeg'; 
 
 const ResetPassword = () => {
   const [password, setPassword] = useState('');
@@ -10,9 +10,8 @@ const ResetPassword = () => {
 
   const handleReset = () => {
     if (password === confirmPassword) {
-      // You can add password update logic here
       alert('Password reset successful!');
-      navigate('/login'); // Redirect to login page
+      navigate('/login'); 
     } else {
       alert('Passwords do not match!');
     }

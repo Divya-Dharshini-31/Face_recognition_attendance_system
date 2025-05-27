@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './SignIn.module.css';
-import faceImage from '../assets/face-image.png'; // Replace with actual image
+import faceImage from '../assets/face-image.png'; 
 import google from '../assets/google.jpeg';
 import facebook from '../assets/facebook.jpg';
 import linkedin from '../assets/linkedin.png';

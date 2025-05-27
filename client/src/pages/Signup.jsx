@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Signup.module.css';
-import faceImage from '../assets/face-image.png'; // Export the left-side image and add here
+import faceImage from '../assets/face-image.png'; 
 
 const SignupForm = () => {
   return (
