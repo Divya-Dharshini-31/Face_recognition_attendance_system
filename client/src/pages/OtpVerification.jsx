@@ -20,7 +20,7 @@ const OtpVerification = () => {
   };
 
   const handleVerify = () => {
-    if (otp.join('') === '7743') { // Replace with your backend OTP validation if needed
+    if (otp.join('') === '7543') { // Replace with your backend OTP validation if needed
       setIsVerified(true);
     } else {
       alert('Invalid OTP!');
