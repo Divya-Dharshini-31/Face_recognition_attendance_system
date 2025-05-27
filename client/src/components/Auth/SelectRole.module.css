@@ -1,0 +1,67 @@
+.container {
+  background: linear-gradient(to right, #2b6cb0, #38b2ac);
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0077b6;
+  margin-bottom: 30px;
+}
+
+.roles {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.role {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #0077b6;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.role span {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.active {
+  background: #e0f7ff;
+}
+
+.confirmBtn {
+  background-color: #38d9ec;
+  color: black;
+  font-weight: bold;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.confirmBtn:hover {
+  background-color: #2ec4d6;
+}
