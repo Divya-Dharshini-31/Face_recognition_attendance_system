@@ -1,13 +1,13 @@
 // src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Notifications from './components/Notifications';
 
 import SelectRole from './components/Auth/SelectRole';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/Signup';
 import OtpVerification from './pages/OtpVerification';
 import ResetPassword from './pages/ResetPassword';
-
 const App = () => {
   return (
     <Router>
@@ -22,5 +22,4 @@ const App = () => {
     </Router>
   );
 };
-
 export default App;
